@@ -1,22 +1,25 @@
-## ----, eval = FALSE------------------------------------------------------
-## install.packages("caret", dependencies = TRUE)
-## install.packages("randomForest")
+##  R script to introduce the Random Forest machine learning method
+##  Follow tutorial here: https://will-stanton.com/2015/03/08/machine-learning-with-r-an-irresponsibly-fast-tutorial/
+##  All credit to Will Stanton - I made only minor cosmetic changes
 
-## ----, warning = FALSE, message = FALSE----------------------------------
-library(caret)
+## Install required packages once
+install.packages("caret", dependencies = TRUE) 
+install.packages("randomForest")
+install.packages("fields")
+
+## Load required packages every time
+library(caret) 
 library(randomForest)
+library(fields)
 
-## ----, eval = FALSE------------------------------------------------------
-## setwd("FILE PATH TO DIRECTORY")
-
-## ----, eval = FALSE------------------------------------------------------
-## setwd("~/Desktop/Titanic/")
+## No need to run a "setwd" command because we're using an r project file
+## setwd("~/Desktop/Titanic/") 
 
 ## ------------------------------------------------------------------------
-trainSet <- read.table("train.csv", sep = ",", header = TRUE)
+trainSet <- read.table("./data/train.csv", sep = ",", header = TRUE)
 
 ## ------------------------------------------------------------------------
-testSet <- read.table("test.csv", sep = ",", header = TRUE)
+testSet <- read.table("./data/test.csv", sep = ",", header = TRUE)
 
 ## ------------------------------------------------------------------------
 head(trainSet)
@@ -30,7 +33,7 @@ table(trainSet[,c("Survived", "Pclass")])
 ## ----, warning = FALSE, message = FALSE----------------------------------
 # Comparing Age and Survived: The boxplots are very similar between Age
 # for survivors and those who died. 
-library(fields)
+
 bplot.xy(trainSet$Survived, trainSet$Age)
 # Also, there are lots of NA's. Exclude this variable
 summary(trainSet$Age)
