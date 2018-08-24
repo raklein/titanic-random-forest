@@ -1,8 +1,7 @@
 # titanic-random-forest
 This is the script accompanying the tutorial here: https://will-stanton.com/2015/03/08/machine-learning-with-r-an-irresponsibly-fast-tutorial/
 
-**All credit to Will Stanton for creating the code and tutorial**
-I only tidied up the code somewhat to make it more usable for novice R users.
+**All credit to Will Stanton for creating the code and tutorial.** I only tidied up the code somewhat to make it more usable for novice R users.
 
 It implements a Random Forest model on the [Titanic dataset](https://www.kaggle.com/c/titanic/data) from Kaggle to predict which passengers survived or died. It demonstrates how to implement this simple machine learning model and 
 
