@@ -1,3 +1,5 @@
+## This is a backup copy of Will Stanton's blog on machine learning. Please visit his site to read this tutorial here: http://wstanton.wpengine.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/ . Only use this copy if his website is down or the URL doesn't work.
+
 ## Machine learning is EASY! 
 
 
