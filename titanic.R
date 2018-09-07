@@ -1,6 +1,7 @@
 ##  R script to introduce the Random Forest machine learning method
-##  Follow tutorial here: https://will-stanton.com/2015/03/08/machine-learning-with-r-an-irresponsibly-fast-tutorial/
-##  All credit to Will Stanton - I made only minor cosmetic changes
+##  Follow tutorial here: http://wstanton.wpengine.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/
+##  As a backup, I've included a copy of the tutorial in this project directory (just open titanic.Rmd)
+##  All credit to Will Stanton - I made only minor cosmetic changes (e.g., converting to an r project file, including data)
 
 ## Install required packages once
 install.packages("caret", dependencies = TRUE) 
