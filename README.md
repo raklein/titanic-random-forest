@@ -1,7 +1,7 @@
 # titanic-random-forest
 This is the script accompanying the tutorial here:  
 -http://wstanton.wpengine.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/  
--Backup link if the above doesn't work: https://github.com/wgstanton/blog-resources/blob/master/Titanic/titanic.Rmd
+-Backup link if the above doesn't work: https://github.com/raklein/titanic-random-forest/blob/master/titanic.Rmd
 
 **All credit to Will Stanton for creating the code and tutorial.** I only made some minor adjustments to the code/repository to make it a little more user friendly for my intended audience.
 
